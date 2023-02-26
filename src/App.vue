@@ -99,7 +99,7 @@ export default {
       this.start = setInterval(() => {
         this.moveAnt();
         this.counter++;
-      }, 20);
+      }, 500);
     },
     pauseSimulation() {
       clearInterval(this.start);
